@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(126, 84, 84);
+}
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(194, 143, 143);
+  }
+  .h1{
+    color: aliceblue;
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+    color: aliceblue;
+  }
+  
+  .browser {
+    background: rgb(150, 107, 107);
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+  .details{
+    font-size: medium;
+    margin-left: auto;
+  }
+
+  .checked {
+    color: orange;
+  }
+
+  .container {
+    position: relative;
+    width: 250px;
+  }
+  
+  .image {
+    display:block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overimage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #8d503ec9;
+  }
+  
+  .container:hover .overimage {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  
